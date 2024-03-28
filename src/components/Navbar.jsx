@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
     <div className='flex flex-row bg-[#2DA2B5]'>
       <div className='p-[20px] '>
-        <p className='text-white'>ShipitDAO</p>
+        <Link to='/home' className='text-white'>ShipitDAO</Link>
       </div>
       <div className='flex flex-row py-[20px]'>
         <p className='ml-[450px] hover:text-white'>Builders</p>
@@ -12,7 +13,7 @@ function Navbar() {
         <p className='hover:text-white'>Events</p>
       </div>
       <div className='fixed right-3'>
-        <button className='bg-white p-[10px] rounded-3xl my-[10px] hover:text-white'>Connect Wallet</button>
+        <button className='bg-white p-[10px] rounded-3xl my-[10px] hover:text-[#2DA2B5]'>Connect Wallet</button>
       </div>
     </div>
   )
