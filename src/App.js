@@ -8,6 +8,8 @@ import Page3 from "./pages/Page3";
 import Page4 from "./pages/Page4";
 import Page5 from "./pages/Page5";
 import Home from "./pages/Home";
+import Proposals from "./pages/Proposals";
+import Proposalsample from "./components/Proposalsample";
 
 
 export default function App() {
@@ -22,6 +24,8 @@ export default function App() {
         <Route path="/3" element={<Page3 />} />
         <Route path="/4" element={<Page4 />} />
         <Route path="/5" element={<Page5 />} />
+        <Route path="/proposals" element={<Proposals />} />
+        <Route path="/proposalsample" element={<Proposalsample />} />
       </Routes>
     </BrowserRouter>
   );
