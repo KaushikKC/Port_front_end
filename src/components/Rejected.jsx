@@ -2,7 +2,7 @@ import React from 'react'
 import { FaThumbsUp } from "react-icons/fa";
 import { FaThumbsDown } from "react-icons/fa";
 
-function Accepted() {
+function Rejected() {
   return (
     <div className='border border-black rounded-xl w-[650px] h-[300px] my-[0px]'>
     <div className='flex flex-row'>
@@ -18,19 +18,19 @@ function Accepted() {
       <div className='py-[30px] border-black border-b px-[10px]'>
         <p>Solidity to Java Translator？ Can We Convert Solidity file to Java file and Which Blockchain in scalable for Metaverse ?</p>
       </div>
-      <div className='flex justify-around items-center bg-[#4DC5D7]'>
+      <div className='flex justify-around items-center bg-[#EF8689]'>
       <div className=' w-[100vh] p-[10px]'>
-        <p className=''>Proposal is Accepted</p>
+        <p className=''>Proposal is Rejected</p>
       </div>
         <div className='flex flex-row space-x-4 px-[90px]'>
             <FaThumbsUp size={25}/>
             <p>20</p>
             <FaThumbsDown size={25}/>
-            <p>15</p>
+            <p>25</p>
         </div>
       </div>
     </div>
   )
 }
 
-export default Accepted
+export default Rejected

@@ -1,6 +1,7 @@
 import React from 'react'
 import Proposalsample from '../components/Proposalsample'
 import Accepted from '../components/Accepted'
+import Rejected from '../components/Rejected'
 
 function Proposals() {
   return (
@@ -18,9 +19,13 @@ function Proposals() {
             <button type='submit' className='bg-[#2DA2B5] p-[10px] rounded-3xl text-white  w-[120px] flex justify-center hover:font-bold'> Create </button>
           </div>
         </div>
-        <div className='grid grid-cols-2 gap-4 p-[20px]'>
-        <Proposalsample />
+        <div className='grid grid-cols-2 gap-4 mx-[200px] my-[50px]'>
+        <Rejected />
         <Accepted />
+        <Proposalsample />
+        <Rejected />
+        <Accepted />
+        <Proposalsample />
         </div>
     </div>
   )
