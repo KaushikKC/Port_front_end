@@ -11,6 +11,8 @@ import Home from "./pages/Home";
 import Proposals from "./pages/Proposals";
 import Events from "./pages/Events";
 import Createevent from "./components/Createevent";
+import Createproposal from "./components/Createproposal";
+import Changeprofile from "./components/Changeprofile";
 
 
 export default function App() {
@@ -28,6 +30,8 @@ export default function App() {
         <Route path="/proposals" element={<Proposals />} />
         <Route path="/events" element={<Events />} />
         <Route path="/createevents" element={<Createevent />} />
+        <Route path="/createproposals" element={<Createproposal />} />
+        <Route path="/changeprofile" element={<Changeprofile />} />
 
       </Routes>
     </BrowserRouter>
