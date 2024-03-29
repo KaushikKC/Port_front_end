@@ -4,7 +4,7 @@ import { FaThumbsDown } from "react-icons/fa";
 
 function Rejected() {
   return (
-    <div className='border border-black rounded-xl w-[650px] h-[300px] my-[0px]'>
+    <div className='border border-black rounded-xl w-[650px] h-[270px] '>
     <div className='flex flex-row'>
         <div className='flex flex-col w-full p-[10px]'>
         <p className='text-[18px]'>Proposal no #23</p>
@@ -18,7 +18,7 @@ function Rejected() {
       <div className='py-[30px] border-black border-b px-[10px]'>
         <p>Solidity to Java Translator？ Can We Convert Solidity file to Java file and Which Blockchain in scalable for Metaverse ?</p>
       </div>
-      <div className='flex justify-around items-center bg-[#EF8689]'>
+      <div className='flex justify-around items-center bg-[#EF8689] rounded-b-xl '>
       <div className=' w-[100vh] p-[10px]'>
         <p className=''>Proposal is Rejected</p>
       </div>

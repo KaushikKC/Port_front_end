@@ -10,7 +10,7 @@ function Eventcard() {
         <p>AUG</p>
         <p className='text-[25px] font-medium'>18</p>
       </div>
-      <div className='w-[1000px] mx-[50px] flex flex-row border border-black rounded-lg'>
+      <div className='w-[1000px] mx-[20px] flex flex-row border border-black rounded-lg'>
         <img src={img1} alt='img1' className='' />
         <div className='flex flex-col p-[20px] justify-center'>
             <p className='font-medium text-[22px]'>Web3 Design Meetup (Chennai)</p>

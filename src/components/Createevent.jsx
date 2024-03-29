@@ -1,10 +1,21 @@
 import React from 'react'
 import { IoMdClose } from "react-icons/io";
+import { redirect, useNavigate } from 'react-router-dom';
 
 function Createevent() {
+
+  let navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate('/events')
+  }
+
   return (
-    <div className='flex flex-col w-[700px] rounded-xl bg-[#DBEFF9] m-[30px] h-[1100px]'>
-        <IoMdClose size={25} className=''/>
+    <div className='flex justify-center'>
+    <div className='flex flex-col w-[700px] rounded-xl bg-[#DBEFF9] m-[30px]  h-[1100px]'>
+      <div onClick={() => handleBack()}>
+        <IoMdClose size={25} className='ml-auto m-3 z-20 cursor-pointer'/>
+        </div>
         <div className='flex justify-center'>
             <p className='text-[40px]'>Create Event</p>
         </div>
@@ -44,6 +55,7 @@ function Createevent() {
               <button type='submit' className='bg-white p-[10px] rounded-3xl text-gray-400  w-[200px] flex justify-center hover:font-medium'>Share this Event</button>
             </div>
         </div>
+    </div>
     </div>
   )
 }
