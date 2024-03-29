@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <div className='flex items-center justify-end'>
-        <div className='pr-[150px]'>
+        <div className='px-[100px]'>
             <p className='text-[40px] font-bold w-[800px]'>All Aboard! Let's Learn, Build and Ship Together to Build Products for the World</p>
             <p className='w-[800px] py-[40px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis numquam omnis necessitatibus incidunt aliquam sed nesciunt dignissimos accusamus eius repellat perspiciatis laudantium, nulla dolores, fugiat dolor neque fuga facilis repudiandae.</p>
             <Link to='/1' type='submit' className='bg-[#2DA2B5] p-[10px] rounded-3xl text-white  w-[120px] flex justify-center hover:font-bold'> JOIN US </Link>

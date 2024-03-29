@@ -9,7 +9,8 @@ import Page4 from "./pages/Page4";
 import Page5 from "./pages/Page5";
 import Home from "./pages/Home";
 import Proposals from "./pages/Proposals";
-import Proposalsample from "./components/Proposalsample";
+import Events from "./pages/Events";
+import Createevent from "./components/Createevent";
 
 
 export default function App() {
@@ -25,7 +26,9 @@ export default function App() {
         <Route path="/4" element={<Page4 />} />
         <Route path="/5" element={<Page5 />} />
         <Route path="/proposals" element={<Proposals />} />
-        <Route path="/proposalsample" element={<Proposalsample />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/createevents" element={<Createevent />} />
+
       </Routes>
     </BrowserRouter>
   );
