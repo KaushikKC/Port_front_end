@@ -10,7 +10,7 @@ function Page2() {
             <div className='grid grid-cols-3 gap-4 p-[20px]'>
               <div className='rounded-md bg-[#EAF6F8] p-[10px] hover:shadow-lg flex flex-col justify-center items-center'> 
               <p>IIT</p>
-              <p className='text-gray-500'>Chennai</p>
+              <p className='text-gray-500'>Mumbai</p>
               </div>
               <div className='rounded-md bg-[#EAF6F8] p-[10px] hover:shadow-lg flex flex-col justify-center items-center'> 
               <p>SRM</p>

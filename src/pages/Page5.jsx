@@ -25,11 +25,11 @@ function Page5() {
               
               </div>
               <div className='rounded-md bg-[#EAF6F8] p-[10px] hover:shadow-lg flex flex-col justify-center items-center text-center'> 
-              <p>Helmsman</p>
+              <p>Polygon</p>
               
               </div>
               <div className='rounded-md bg-[#EAF6F8] p-[10px] hover:shadow-lg flex flex-col justify-center items-center'> 
-              <p>Chief Engineer</p>
+              <p>Fuel</p>
               
               </div>
             </div>

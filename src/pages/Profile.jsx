@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Profile() {
   return (
@@ -11,6 +12,7 @@ function Profile() {
       <button type='submit' className='bg-[#2DA2B5] p-[10px] rounded-3xl my-[20px] hover:text-white'> Connect Lens Handle </button>
       <p className='w-[500px] text-center pt-[20px]'>Signing up with any of the option will create a wallet for you and information will be sent to your mail </p>
       <p className='py-[30px] hover:underline'>Not familiar with Wallet ? </p>
+      <Link to='/profilepage' type='submit' className='bg-[#2DA2B5] p-[10px] rounded-3xl hover:text-white'> Visit Profile </Link>
     </div>
   )
 }

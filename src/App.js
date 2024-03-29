@@ -13,6 +13,7 @@ import Events from "./pages/Events";
 import Createevent from "./components/Createevent";
 import Createproposal from "./components/Createproposal";
 import Changeprofile from "./components/Changeprofile";
+import Profilepage from "./pages/Profilepage";
 
 
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/createevents" element={<Createevent />} />
         <Route path="/createproposals" element={<Createproposal />} />
         <Route path="/changeprofile" element={<Changeprofile />} />
+        <Route path="/profilepage" element={<Profilepage />} />
 
       </Routes>
     </BrowserRouter>
